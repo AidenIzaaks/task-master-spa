@@ -1,0 +1,23 @@
+node_modules/
+.env
+*.db
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Scripts (optional - keep for reference)
+create_table.js
+create_bucket.js
+update_schema.js
+database.js
+supabaseClient.js
